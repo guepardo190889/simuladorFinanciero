@@ -1,0 +1,1446 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="mainPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="mainPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+                                          <Component id="tituDeLiquidez" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="21" pref="21" max="21" attributes="0"/>
+                                                  <Component id="razonCirculante" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="capitalDeTrabajoNeto" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                                          <Component id="tituDeActividad" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
+                                          <Component id="tituDeRentabilidad" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="cobroPorDia" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="pagoAnual" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="cobroAnual" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                          <Component id="rotacionDeActivosTotales" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="pagoPorDia" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                                  <Component id="rotacionDeInventario" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="2" attributes="0">
+                                              <Component id="tituCalcuRentabilidad" alignment="2" min="-2" max="-2" attributes="0"/>
+                                              <Component id="utilidadBrutaVCVV" alignment="2" min="-2" max="-2" attributes="0"/>
+                                              <Component id="utilidadSobreActivos" alignment="2" min="-2" max="-2" attributes="0"/>
+                                              <Component id="utilidadSobreCapitalContable" alignment="2" min="-2" max="-2" attributes="0"/>
+                                              <Component id="utilidadNeta" alignment="2" min="-2" max="-2" attributes="0"/>
+                                              <Component id="utilidadOperativa" alignment="2" min="-2" max="-2" attributes="0"/>
+                                              <Component id="utilidadBrutaUNV" alignment="2" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="razonRapida" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="2" attributes="0">
+                              <Component id="tituDeDeuda" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="razonDeDeuda" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="capacidadDePagoDeIntereses" alignment="2" min="-2" max="-2" attributes="0"/>
+                              <Component id="tituCalcuDeuda" alignment="2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+                          <Component id="tituCalcuLiquidez" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="177" max="-2" attributes="0"/>
+                          <Component id="tituCalcuActividad" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="statusPanel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="statusPanelSeparator" alignment="0" max="32767" attributes="1"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Titulo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="Instruciones" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="56" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                  <Component id="Titulo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="Instruciones" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="tituDeDeuda" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="tituCalcuDeuda" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                          <Component id="razonDeDeuda" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="capacidadDePagoDeIntereses" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="tituDeLiquidez" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tituDeActividad" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="tituDeRentabilidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="tituCalcuLiquidez" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tituCalcuActividad" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="capitalDeTrabajoNeto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rotacionDeInventario" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="razonCirculante" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cobroPorDia" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="razonRapida" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cobroAnual" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="pagoPorDia" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                  <Component id="pagoAnual" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="rotacionDeActivosTotales" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="tituCalcuRentabilidad" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="utilidadBrutaVCVV" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="utilidadBrutaUNV" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="utilidadOperativa" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="utilidadNeta" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="utilidadSobreActivos" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="utilidadSobreCapitalContable" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="statusPanelSeparator" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="statusPanel" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Titulo">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="Titulo.text"/>
+            <Property name="name" type="java.lang.String" value="Titulo" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Instruciones">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="Instruciones.text"/>
+            <Property name="name" type="java.lang.String" value="Instruciones" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituDeLiquidez">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituDeLiquidez.text"/>
+            <Property name="name" type="java.lang.String" value="tituDeLiquidez" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituDeActividad">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituDeActividad.text"/>
+            <Property name="name" type="java.lang.String" value="tituDeActividad" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituDeDeuda">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituDeDeuda.text"/>
+            <Property name="name" type="java.lang.String" value="tituDeDeuda" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituDeRentabilidad">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituDeRentabilidad.text"/>
+            <Property name="name" type="java.lang.String" value="tituDeRentabilidad" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="capitalDeTrabajoNeto">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="capitalDeTrabajoNeto.text"/>
+            <Property name="name" type="java.lang.String" value="capitalDeTrabajoNeto" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="capitalDeTrabajoNetoMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituCalcuLiquidez">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="tituCalcuLiquidez.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="tituCalcuLiquidez.text"/>
+            <Property name="name" type="java.lang.String" value="tituCalcuLiquidez" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="razonCirculante">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="razonCirculante.text"/>
+            <Property name="name" type="java.lang.String" value="razonCirculante" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="razonCirculanteMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="razonRapida">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="razonRapida.text"/>
+            <Property name="name" type="java.lang.String" value="razonRapida" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="razonRapidaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituCalcuActividad">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="tituCalcuActividad.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="tituCalcuActividad.text"/>
+            <Property name="name" type="java.lang.String" value="tituCalcuActividad" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="rotacionDeInventario">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="rotacionDeInventario.text"/>
+            <Property name="name" type="java.lang.String" value="rotacionDeInventario" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="rotacionDeInventarioMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="cobroPorDia">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="cobroPorDia.text"/>
+            <Property name="name" type="java.lang.String" value="cobroPorDia" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="cobroPorDiaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="cobroAnual">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="cobroAnual.text"/>
+            <Property name="name" type="java.lang.String" value="cobroAnual" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="cobroAnualMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="pagoPorDia">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="pagoPorDia.text"/>
+            <Property name="name" type="java.lang.String" value="pagoPorDia" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pagoPorDiaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="pagoAnual">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="pagoAnual.text"/>
+            <Property name="name" type="java.lang.String" value="pagoAnual" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="pagoAnualMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="rotacionDeActivosTotales">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="rotacionDeActivosTotales.text"/>
+            <Property name="name" type="java.lang.String" value="rotacionDeActivosTotales" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="rotacionDeActivosTotalesMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituCalcuRentabilidad">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="tituCalcuRentabilidad.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="tituCalcuRentabilidad.text"/>
+            <Property name="name" type="java.lang.String" value="tituCalcuRentabilidad" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="utilidadBrutaVCVV">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="utilidadBrutaVCVV.text"/>
+            <Property name="name" type="java.lang.String" value="utilidadBrutaVCVV" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="utilidadBrutaVCVVMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="utilidadBrutaUNV">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="utilidadBrutaUNV.text"/>
+            <Property name="name" type="java.lang.String" value="utilidadBrutaUNV" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="utilidadBrutaUNVMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="utilidadOperativa">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="utilidadOperativa.text"/>
+            <Property name="name" type="java.lang.String" value="utilidadOperativa" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="utilidadOperativaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="utilidadNeta">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="utilidadNeta.text"/>
+            <Property name="name" type="java.lang.String" value="utilidadNeta" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="utilidadNetaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="utilidadSobreActivos">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="utilidadSobreActivos.text"/>
+            <Property name="name" type="java.lang.String" value="utilidadSobreActivos" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="utilidadSobreActivosMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="utilidadSobreCapitalContable">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="utilidadSobreCapitalContable.text"/>
+            <Property name="name" type="java.lang.String" value="utilidadSobreCapitalContable" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="utilidadSobreCapitalContableMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="razonDeDeuda">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="razonDeDeuda.text"/>
+            <Property name="name" type="java.lang.String" value="razonDeDeuda" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="razonDeDeudaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="capacidadDePagoDeIntereses">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="capacidadDePagoDeIntereses.text"/>
+            <Property name="name" type="java.lang.String" value="capacidadDePagoDeIntereses" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="capacidadDePagoDeInteresesMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituCalcuDeuda">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="tituCalcuDeuda.font"/>
+            <Property name="text" type="java.lang.String" resourceKey="tituCalcuDeuda.text"/>
+            <Property name="name" type="java.lang.String" value="tituCalcuDeuda" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="statusPanel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusPanel" noResource="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="statusMessageLabel" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace pref="533" max="32767" attributes="0"/>
+                      <Component id="progressBar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="statusAnimationLabel" min="-2" pref="20" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="statusAnimationLabel" alignment="1" pref="77" max="32767" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="statusMessageLabel" alignment="1" min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="progressBar" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="statusMessageLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="statusMessageLabel.text"/>
+                <Property name="name" type="java.lang.String" value="statusMessageLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="statusAnimationLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="statusAnimationLabel.text"/>
+                <Property name="name" type="java.lang.String" value="statusAnimationLabel" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JProgressBar" name="progressBar">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="progressBar" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JSeparator" name="statusPanelSeparator">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusPanelSeparator" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JMenuBar" name="menuBar">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="menuBar" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="fileMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fileMenu.text"/>
+            <Property name="name" type="java.lang.String" value="fileMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="org.jdesktop.application.Application" id="quit" methodName="quit"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="exitMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="exitMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem1">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="org.jdesktop.application.Application" id="quit" methodName="quit"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="exitMenuItem1" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="helpMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="helpMenu.text"/>
+            <Property name="name" type="java.lang.String" value="helpMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="simuladorfinanciero.SimuladorFinancieroView" id="showAboutBox" methodName="showAboutBox"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="aboutMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JProgressBar" name="jProgressBar1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jProgressBar1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JFrame" name="razonCircualanteFrame">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="razonCircualanteFrame.title"/>
+        <Property name="name" type="java.lang.String" value="razonCircualanteFrame" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="tituloInstr" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="tituPasivoCirculante" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="tituActivoCirculante" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="resolverRazonCirculante" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="tituResul" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="resultadoRazonCirculante" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="pasivoCirculante" max="32767" attributes="1"/>
+                                  <Component id="activoCirculante" alignment="0" pref="151" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="62" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="tituloInstr" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituActivoCirculante" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="activoCirculante" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituPasivoCirculante" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pasivoCirculante" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="resolverRazonCirculante" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tituResul" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="resultadoRazonCirculante" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="41" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="tituloInstr">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituloInstr.text"/>
+            <Property name="name" type="java.lang.String" value="tituloInstr" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituActivoCirculante">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituActivoCirculante.text"/>
+            <Property name="name" type="java.lang.String" value="tituActivoCirculante" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituPasivoCirculante">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituPasivoCirculante.text"/>
+            <Property name="name" type="java.lang.String" value="tituPasivoCirculante" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="activoCirculante">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="activoCirculante.text"/>
+            <Property name="name" type="java.lang.String" value="activoCirculante" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pasivoCirculante">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="pasivoCirculante.text"/>
+            <Property name="name" type="java.lang.String" value="pasivoCirculante" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="resolverRazonCirculante">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="resolverRazonCirculante" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="resolverRazonCirculanteMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituResul">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituResul.text"/>
+            <Property name="name" type="java.lang.String" value="tituResul" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resultadoRazonCirculante">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="resultadoRazonCirculante.text"/>
+            <Property name="name" type="java.lang.String" value="resultadoRazonCirculante" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="capitalTrabajoFrame">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="capitalTrabajoFrame.title"/>
+        <Property name="name" type="java.lang.String" value="capitalTrabajoFrame" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="404" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="tituloInstr1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="tituPasivoCirculante1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="tituActivoCirculante1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="resolver1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="tituResul1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                  <Component id="resultado" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="pasivoCirculante1" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="activoCirculante1" alignment="0" pref="151" max="32767" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="70" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="267" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="tituloInstr1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituActivoCirculante1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="activoCirculante1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituPasivoCirculante1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="pasivoCirculante1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="resolver1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tituResul1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="resultado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="49" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="tituloInstr1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituloInstr1.text"/>
+            <Property name="name" type="java.lang.String" value="tituloInstr1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituActivoCirculante1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituActivoCirculante1.text"/>
+            <Property name="name" type="java.lang.String" value="tituActivoCirculante1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituPasivoCirculante1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituPasivoCirculante1.text"/>
+            <Property name="name" type="java.lang.String" value="tituPasivoCirculante1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="activoCirculante1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="activoCirculante1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pasivoCirculante1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pasivoCirculante1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JToggleButton" name="resolver1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="resolver1.text"/>
+            <Property name="name" type="java.lang.String" value="resolver1" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="resolver1MouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituResul1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituResul1.text"/>
+            <Property name="name" type="java.lang.String" value="tituResul1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resultado">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="resultado.text"/>
+            <Property name="name" type="java.lang.String" value="resultado" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="razonRapidaFrame">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="razonRapidaFrame.title"/>
+        <Property name="name" type="java.lang.String" value="razonRapidaFrame" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="instru" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="tituInv" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="tituAct" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="tituPasCir" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtActi" alignment="0" pref="136" max="32767" attributes="1"/>
+                              <Component id="txtInv" alignment="0" max="32767" attributes="1"/>
+                              <Component id="txtPasCir" alignment="0" max="32767" attributes="1"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                          <Component id="resolverRazonRapida" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                          <Component id="tituRes" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="resRazonRapida" min="-2" pref="118" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="35" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                  <Component id="instru" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituAct" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtActi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituInv" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtInv" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituPasCir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPasCir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="28" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="resolverRazonRapida" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tituRes" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="resRazonRapida" min="-2" pref="19" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="instru">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="instru.text"/>
+            <Property name="name" type="java.lang.String" value="instru" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituAct">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituAct.text"/>
+            <Property name="name" type="java.lang.String" value="tituAct" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituInv">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituInv.text"/>
+            <Property name="name" type="java.lang.String" value="tituInv" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituPasCir">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituPasCir.text"/>
+            <Property name="name" type="java.lang.String" value="tituPasCir" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtActi">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="txtActi.text"/>
+            <Property name="name" type="java.lang.String" value="txtActi" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtInv">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="txtInv.text"/>
+            <Property name="name" type="java.lang.String" value="txtInv" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtPasCir">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="txtPasCir.text"/>
+            <Property name="name" type="java.lang.String" value="txtPasCir" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="resolverRazonRapida">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="resolverRazonRapida.text"/>
+            <Property name="name" type="java.lang.String" value="resolverRazonRapida" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="resolverRazonRapidaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituRes">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituRes.text"/>
+            <Property name="name" type="java.lang.String" value="tituRes" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resRazonRapida">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="resRazonRapida.text"/>
+            <Property name="name" type="java.lang.String" value="resRazonRapida" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="rotacionDeInventarioFrame">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="rotacionDeInventarioFrame.title"/>
+        <Property name="name" type="java.lang.String" value="rotacionDeInventarioFrame" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="tituCostoVentas" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="resolverRotacionInventario" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="tituInven" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                  <Component id="tituresu" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="resultadoRotacionInventario" min="-2" pref="85" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="txtInvn" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="txtCosVen" alignment="0" pref="117" max="32767" attributes="1"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="instrudeInventario" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="65" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="instrudeInventario" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituCostoVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCosVen" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituInven" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtInvn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="resolverRotacionInventario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tituresu" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="resultadoRotacionInventario" min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="instrudeInventario">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="instrudeInventario.text"/>
+            <Property name="name" type="java.lang.String" value="instrudeInventario" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituCostoVentas">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituCostoVentas.text"/>
+            <Property name="name" type="java.lang.String" value="tituCostoVentas" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituInven">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituInven.text"/>
+            <Property name="name" type="java.lang.String" value="tituInven" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCosVen">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="txtCosVen.text"/>
+            <Property name="name" type="java.lang.String" value="txtCosVen" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtInvn">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="txtInvn.text"/>
+            <Property name="name" type="java.lang.String" value="txtInvn" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="resolverRotacionInventario">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="resolverRotacionInventario.text"/>
+            <Property name="name" type="java.lang.String" value="resolverRotacionInventario" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="resolverRotacionInventarioMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituresu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituresu.text"/>
+            <Property name="name" type="java.lang.String" value="tituresu" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resultadoRotacionInventario">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="resultadoRotacionInventario.text"/>
+            <Property name="name" type="java.lang.String" value="resultadoRotacionInventario" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="promedioDeCobroDiaFrame">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="promedioDeCobroDiaFrame.title"/>
+        <Property name="name" type="java.lang.String" value="promedioDeCobroDiaFrame" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="tituCuentas" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="resPromedioCobroDia" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="tituVentasxDia" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                  <Component id="tituresu1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="resultadoPromedioCobroDia" min="-2" pref="85" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="txtVentxDia" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="txtCuentasxCobrar" alignment="0" pref="117" max="32767" attributes="1"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="instrudeInventario1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="instrudeInventario1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituCuentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCuentasxCobrar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituVentasxDia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtVentxDia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="resPromedioCobroDia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tituresu1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="resultadoPromedioCobroDia" alignment="1" min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="instrudeInventario1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="instrudeInventario1.text"/>
+            <Property name="name" type="java.lang.String" value="instrudeInventario1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituCuentas">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituCuentas.text"/>
+            <Property name="name" type="java.lang.String" value="tituCuentas" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituVentasxDia">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituVentasxDia.text"/>
+            <Property name="name" type="java.lang.String" value="tituVentasxDia" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCuentasxCobrar">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="txtCuentasxCobrar" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtVentxDia">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="txtVentxDia" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="resPromedioCobroDia">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="resPromedioCobroDia.text"/>
+            <Property name="name" type="java.lang.String" value="resPromedioCobroDia" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="resPromedioCobroDiaMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituresu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituresu1.text"/>
+            <Property name="name" type="java.lang.String" value="tituresu1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resultadoPromedioCobroDia">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="resultadoPromedioCobroDia" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="promedioDeCobroAnualFrame">
+      <Properties>
+        <Property name="title" type="java.lang.String" resourceKey="promedioDeCobroAnualFrame.title"/>
+        <Property name="name" type="java.lang.String" value="promedioDeCobroAnualFrame" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="tituCuentas1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="resPromedioCobroAnual" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="tituVentasxDia1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                  <Component id="tituresu2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="resultadoPromedioCobroAnual" min="-2" pref="85" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="txtVentxAnual" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="txtCuentasxCobrar1" alignment="0" pref="117" max="32767" attributes="1"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="instrudeInventario2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="52" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="instrudeInventario2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituCuentas1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCuentasxCobrar1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituVentasxDia1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtVentxAnual" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="39" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="resPromedioCobroAnual" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tituresu2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="resultadoPromedioCobroAnual" alignment="1" min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="instrudeInventario2">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="instrudeInventario2.text"/>
+            <Property name="name" type="java.lang.String" value="instrudeInventario2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituCuentas1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituCuentas1.text"/>
+            <Property name="name" type="java.lang.String" value="tituCuentas1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituVentasxDia1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituVentasxDia1.text"/>
+            <Property name="name" type="java.lang.String" value="tituVentasxDia1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCuentasxCobrar1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="txtCuentasxCobrar1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtVentxAnual">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="txtVentxAnual" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="resPromedioCobroAnual">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="resPromedioCobroAnual.text"/>
+            <Property name="name" type="java.lang.String" value="resPromedioCobroAnual" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="resPromedioCobroAnualMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituresu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituresu2.text"/>
+            <Property name="name" type="java.lang.String" value="tituresu2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resultadoPromedioCobroAnual">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="resultadoPromedioCobroAnual" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JFrame" name="promedioDePagoPorDiaFrame">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="promedioDePagoPorDiaFrame" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="420" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="tituCuentas2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="resPromedioPagoPorDia" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="tituVentasxDia2" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                                  <Component id="tituresu3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="resultadoPromedioCobroAnual1" min="-2" pref="85" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="txtVentxAnual1" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="txtCuentasxCobrar2" alignment="0" pref="117" max="32767" attributes="1"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="instrudeInventario3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="72" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                  <Component id="instrudeInventario3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituCuentas2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCuentasxCobrar2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tituVentasxDia2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtVentxAnual1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="58" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="resPromedioPagoPorDia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tituresu3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="resultadoPromedioCobroAnual1" alignment="1" min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="instrudeInventario3">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="instrudeInventario3.text"/>
+            <Property name="name" type="java.lang.String" value="instrudeInventario3" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituCuentas2">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituCuentas2.text"/>
+            <Property name="name" type="java.lang.String" value="tituCuentas2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituVentasxDia2">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituVentasxDia2.text"/>
+            <Property name="name" type="java.lang.String" value="tituVentasxDia2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtCuentasxCobrar2">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="txtCuentasxCobrar2" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtVentxAnual1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="txtVentxAnual1" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="resPromedioPagoPorDia">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="resPromedioPagoPorDia.text"/>
+            <Property name="name" type="java.lang.String" value="resPromedioPagoPorDia" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tituresu3">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="tituresu3.text"/>
+            <Property name="name" type="java.lang.String" value="tituresu3" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="resultadoPromedioCobroAnual1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="resultadoPromedioCobroAnual1" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="mainPanel"/>
+    </Property>
+    <Property name="menuBar" type="javax.swing.JMenuBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="menuBar"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="0"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,33,0,0,4,10"/>
+  </AuxValues>
+</Form>
