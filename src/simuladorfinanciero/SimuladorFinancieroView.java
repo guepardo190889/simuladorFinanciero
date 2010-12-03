@@ -206,6 +206,7 @@ public class SimuladorFinancieroView extends FrameView {
         resPromedioPagoPorDia = new javax.swing.JButton();
         tituresu3 = new javax.swing.JLabel();
         resultadoPromedioCobroAnual1 = new javax.swing.JLabel();
+        promedioDePagoAnualFrame = new javax.swing.JFrame();
 
         mainPanel.setName("mainPanel"); // NOI18N
 
@@ -1157,6 +1158,19 @@ public class SimuladorFinancieroView extends FrameView {
                 .add(41, 41, 41))
         );
 
+        promedioDePagoAnualFrame.setName("promedioDePagoAnualFrame"); // NOI18N
+
+        org.jdesktop.layout.GroupLayout promedioDePagoAnualFrameLayout = new org.jdesktop.layout.GroupLayout(promedioDePagoAnualFrame.getContentPane());
+        promedioDePagoAnualFrame.getContentPane().setLayout(promedioDePagoAnualFrameLayout);
+        promedioDePagoAnualFrameLayout.setHorizontalGroup(
+            promedioDePagoAnualFrameLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(0, 400, Short.MAX_VALUE)
+        );
+        promedioDePagoAnualFrameLayout.setVerticalGroup(
+            promedioDePagoAnualFrameLayout.createParallelGroup(org.jdesktop.layout.GroupLayout.LEADING)
+            .add(0, 300, Short.MAX_VALUE)
+        );
+
         setComponent(mainPanel);
         setMenuBar(menuBar);
     }// </editor-fold>//GEN-END:initComponents
@@ -1296,6 +1310,9 @@ public class SimuladorFinancieroView extends FrameView {
 
     private void pagoAnualMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pagoAnualMouseClicked
         // TODO add your handling code here:
+            promedioDePagoAnualFrame.setBounds(0, 0, 500, 300);
+            promedioDePagoAnualFrame.setLocationRelativeTo(null); // Centra la ventana.
+            promedioDePagoAnualFrame.setVisible(true);
     }//GEN-LAST:event_pagoAnualMouseClicked
 
     private void rotacionDeActivosTotalesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_rotacionDeActivosTotalesMouseClicked
@@ -1359,6 +1376,7 @@ public class SimuladorFinancieroView extends FrameView {
     javax.swing.JProgressBar progressBar;
     javax.swing.JFrame promedioDeCobroAnualFrame;
     javax.swing.JFrame promedioDeCobroDiaFrame;
+    javax.swing.JFrame promedioDePagoAnualFrame;
     javax.swing.JFrame promedioDePagoPorDiaFrame;
     javax.swing.JFrame razonCircualanteFrame;
     javax.swing.JToggleButton razonCirculante;
